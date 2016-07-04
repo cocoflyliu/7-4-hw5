@@ -1,0 +1,93 @@
+div.hw1{color: white}
+
+div.header {
+    background: lightblue;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.nav {
+    background: yellow;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+div.sidebar {
+    background: blue;
+    text-align: center;
+    padding: 2%;
+    width: 25%;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+
+div.main {
+    background: lightgreen;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    
+}
+
+div.footer {
+    background: orange;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.chart1>li 
+{
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: -5px;
+    
+   
+}
+ul.charts
+{   width: 100px;
+    background: lightgray;
+    border-radius: 8%;
+    padding: 0px;
+    position: absolute;
+    top:100%;
+    left:-1px;
+    display: none;
+}
+ul.charts>li
+{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 2px;
+    text-align: center;
+}
+.chart1>li:hover .charts{ display: block;}
+div.circle
+{   display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    left: 80%;
+    top: 80%;
+}
