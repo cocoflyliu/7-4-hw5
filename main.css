@@ -50,19 +50,18 @@ div.footer {
 .chart1>li 
 {
     display: inline-block;
+    width: 100px;
+     text-align: center;
     font-family: arial;
     position: relative;
-    border: 1px solid gray;
-    border-radius: 8px;
+    border: 1px solid #92919a;
     padding: 5px;
     margin-right: -5px;
-    
-   
 }
 ul.charts
 {   width: 100px;
-    background: lightgray;
-    border-radius: 8%;
+    background: #cdd4d4;
+    border-radius: 8px;
     padding: 0px;
     position: absolute;
     top:100%;
@@ -73,10 +72,24 @@ ul.charts>li
 {
     cursor: pointer;
     list-style-type: none;
-    padding: 2px;
-    text-align: center;
+    padding: .5em 15px;
+   
+    
+    
 }
-.chart1>li:hover .charts{ display: block;}
+.chart1>li:hover .charts
+{ 
+    display: block;
+    
+}
+.charts>li:hover 
+{   
+    box-sizing: border-box;
+    width: 100px;
+    background: #f2eaea;
+    color: lightslategray;
+}
+
 div.circle
 {   display: inline-block;
     width: 50px;
